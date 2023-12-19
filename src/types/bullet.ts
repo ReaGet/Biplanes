@@ -2,6 +2,8 @@ export interface IBullet {
   alive: boolean;
   x: number;
   y: number;
+  width: number;
+  height: number;
   dir: number;
   firedBy: number;
   speed: number;
